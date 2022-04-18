@@ -292,7 +292,8 @@ img {
 }
 
 .home__blob-img {
-  width: 170px;
+  width: 230px;
+  object-fit: cover ;
 }
 
 .home__data {
@@ -529,6 +530,10 @@ img {
 
 .skills__mysql {
   width: 80%;
+}
+
+.skills__60{
+  width: 60%;
 }
 
 
