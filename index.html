@@ -99,7 +99,7 @@
             165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
             129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
             -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/portfolio.jpg"/>
+                                <image class="home__blob-img" x="0" y="0" xlink:href="assets/img/portfolio.jpg"/>
                             </g>
                         </svg>
 
@@ -108,7 +108,7 @@
                         <h1 class="home__title">Hello from Mayur,</h1>
                         <h3 class="home__subtitle">Full-Stack Developer</h3>
                         <p class="home__description">High level experience in Front-end and Back-end development and producing quality work.</p>
-                        <a href="#contact" class="button button--flex">
+                        <a href="#contact" class="home__button button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
@@ -197,6 +197,16 @@
                                 </div>
                             </div>
 
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MongoDB</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__60"></div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
@@ -244,6 +254,26 @@
                                 </div>
                             </div>
 
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">jQuery</h3>
+                                    <div class="skills__number">60%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__60"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ReactJs</h3>
+                                    <div class="skills__number">80%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__60"></div>
+                                </div>
+                            </div>
+
                             
                         </div>
                     </div>
@@ -287,12 +317,12 @@
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                    <div class="qualification__button qualification__education button--flex qualification__active" data-target="#education">
                         <i class="uil uil-graduation-cap qualification__icon"></i>
                         Education
                     </div>
 
-                    <div class="qualification__button button--flex" data-target="#work">
+                    <div class="qualification__button qualification__work button--flex" data-target="#work">
                         <i class="uil uil-briefcase-alt qualification__icon"></i>
                         Work
                     </div>
@@ -664,8 +694,8 @@
                             <textarea name="" cols="0" rows="7" id="message-contact" class="contact__input"></textarea>
                         </div>
                         
-                        <div>
-                            <button onclick="writeData()" class="button button--flex">Send Message</button>
+                        <div class="contact__button">
+                            <button onclick="writeData()" class="button button--flex ">Send Message</button>
                             <i class="uil uil-message button__icon"></i>
                         </div>
                     </form>
@@ -727,6 +757,9 @@
 
     <!--====================  FIREBASE SETUP ===============-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+    <!--====================  SCROLL REVEAL JS =============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
     
 
     <!--==================== MAIN JS ====================-->
