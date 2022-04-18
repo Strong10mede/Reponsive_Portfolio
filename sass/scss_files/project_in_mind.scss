@@ -1,0 +1,30 @@
+
+
+/*==================== PROJECT IN MIND ====================*/
+.project{
+    text-align: center;
+}
+
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color: #FFF;
+}
+
+.project__img{
+    height: 232px;
+    justify-self: center;
+}
